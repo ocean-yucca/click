@@ -9,7 +9,8 @@ num_click = 0
 
 app.layout = html.Div([
     html.Button('Click', id = 'click'),
-    html.Div('0', id = 'content')
+    html.Div('0', id = 'content'),
+    html.Div('2nd Version')
         ])
 
 @app.callback(
